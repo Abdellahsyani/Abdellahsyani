@@ -1,14 +1,23 @@
+<h1 align="center">Hey 👋 Welcome To My Profile?</h1>
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="300" />
-  <img src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="300" />
-
-  <br/>
-
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+profile!;Have+a+look+around!&font=Fira+Code&color=D62F79&center=true&width=600&height=50">
-
-  <br/><br/>
-
   <a href="https://github.com/Abdellahsyani">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Abdellahsyani&theme=dark&hide=html,css,cmake&layout=compact&langs_count=10&hide_title=true" width="600">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=Abdellahsyani&theme=dark&hide=html,css,cmake&layout=compact&langs_count=10&hide_title=false" width="600">
   </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Abdellahsyani&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph" />
+  
+  <img src="https://github-profile-trophy.vercel.app?username=Abdellahsyani&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8" height="150" alt="trophy graph" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" />
+  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&style=for-the-badge" height="25" />
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="25" />
 </div>
