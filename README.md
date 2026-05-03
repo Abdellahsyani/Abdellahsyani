@@ -5,12 +5,12 @@
 </p>
 
 <div align="center">
-  <!-- General Stats Card -->
-  <a href="https://github.com/Abdellahsyani">
-    <img src="https://github-readme-stats.vercel.app/api?username=Abdellahsyani&show_icons=true&theme=dark&hide_border=false" width="400" alt="GitHub Stats" />
-  </a>
+  <!-- This is the new Stat Card from your GitHub Action -->
+  <img src="github-metrics.svg" width="400" alt="GitHub Stats" />
+  
   <br/>
-  <!-- Top Languages Card (Your existing one) -->
+  
+  <!-- Your existing Languages Card -->
   <a href="https://github.com/Abdellahsyani">
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=Abdellahsyani&theme=dark&hide=html,css,cmake&layout=compact&langs_count=10&hide_title=false" width="400" alt="Top Languages" />
   </a>
