@@ -1,7 +1,7 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}] # Runs every day at midnight
-  workflow_dispatch: # Allows you to run it manually
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -11,5 +11,15 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Abdellahsyani
           template: classic
-          base: header, community, repositories, metadata
-          config_timezone: Africa/Casablanca # Set to your timezone
+          base: header, metadata
+          
+          # Customization for the "Green/Matrix" look
+          config_theme: terminal
+          config_timezone: Africa/Casablanca
+          
+          # This adds specific details like stars and contributors clearly
+          plugin_repositories: yes
+          plugin_repositories_featured: Abdellahsyani/webserv, Abdellahsyani/minishell
+          
+          # Clean output
+          config_order: base.header, base.metadata
