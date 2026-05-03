@@ -1,10 +1,22 @@
-<h1 align="center">Hey 👋 Welcome To My Profile?</h1>
+<h1 align="center">Hey 👋 Welcome To My Profile</h1>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Abdellahsyani&color=blue&style=flat-square&label=PROFILE+VIEWS" alt="Abdellahsyani" />
+</p>
 
 <div align="center">
+  <!-- General Stats Card -->
   <a href="https://github.com/Abdellahsyani">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=Abdellahsyani&theme=dark&hide=html,css,cmake&layout=compact&langs_count=10&hide_title=false" width="600">
+    <img src="https://github-readme-stats.vercel.app/api?username=Abdellahsyani&show_icons=true&theme=dark&hide_border=false" width="400" alt="GitHub Stats" />
+  </a>
+  <br/>
+  <!-- Top Languages Card (Your existing one) -->
+  <a href="https://github.com/Abdellahsyani">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=Abdellahsyani&theme=dark&hide=html,css,cmake&layout=compact&langs_count=10&hide_title=false" width="400" alt="Top Languages" />
   </a>
 </div>
+
+<br/>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/abdellah-syani-604702261/" target="_blank">
