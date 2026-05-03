@@ -5,13 +5,12 @@
 </p>
 
 <div align="center">
-  <!-- General Stats Card -->
-  <a href="https://github.com/Abdellahsyani">
-    <img src="https://github-readme-stats.vercel.app/api?username=Abdellahsyani&show_icons=true&theme=dark&hide_border=false" width="400" alt="GitHub Stats" />
-  </a>
+  <!-- This uses your new local file to show your General Stats (Commits, Stars, etc.) -->
+  <img src="github-metrics.svg" width="400" alt="GitHub Stats" />
+  
   <br/>
-
-  <!-- Your existing Languages Card -->
+  
+  <!-- YOUR ORIGINAL LANGUAGES CARD - NO CHANGES MADE -->
   <a href="https://github.com/Abdellahsyani">
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=Abdellahsyani&theme=dark&hide=html,css,cmake&layout=compact&langs_count=10&hide_title=false" width="400" alt="Top Languages" />
   </a>
