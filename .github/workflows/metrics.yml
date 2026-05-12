@@ -10,16 +10,12 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Abdellahsyani
-          template: classic
+          template: classic      # Or use "terminal" for the matrix look
           base: header, metadata
           
-          # Customization for the "Green/Matrix" look
-          config_theme: terminal
           config_timezone: Africa/Casablanca
           
-          # This adds specific details like stars and contributors clearly
           plugin_repositories: yes
           plugin_repositories_featured: Abdellahsyani/webserv, Abdellahsyani/minishell
           
-          # Clean output
           config_order: base.header, base.metadata
