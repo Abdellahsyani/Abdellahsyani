@@ -10,6 +10,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Abdellahsyani
+          debug: true
           template: classic      # Or use "terminal" for the matrix look
           base: header, metadata
           
