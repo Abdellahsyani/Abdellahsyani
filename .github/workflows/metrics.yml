@@ -1,22 +1,22 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}]
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v4.32
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Abdellahsyani
-          debug: true
-          template: classic      # Or use "terminal" for the matrix look
-          base: header, metadata
-          
+          template: classic
+          base: header, metadata, repositories
           config_timezone: Africa/Casablanca
-          
+
           plugin_repositories: yes
-          plugin_repositories_featured: Abdellahsyani/webserv, Abdellahsyani/minishell
-          
-          config_order: base.header, base.metadata
+          plugin_repositories_featured: Abdellahsyani/cpp_projects, Abdellahsyani/MiniShell, Abdellahsyani/3D_game
+
+          config_order: base.header, base.metadata, base.repositories
