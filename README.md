@@ -26,11 +26,11 @@
 
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Abdellahsyani/Abdellahsyani/output/pacman-contribution-graph.svg">
+    srcset="https://raw.githubusercontent.com/Abdellahsyani/Abdellahsyani/output/pacman-contribution-graph-dark.svg">
 
   <img
     alt="Pac-Man contribution graph"
-    src="https://raw.githubusercontent.com/Abdellahsyani/Abdellahsyani/output/pacman-contribution-graph.svg">
+    src="https://raw.githubusercontent.com/Abdellahsyani/Abdellahsyani/output/pacman-contribution-graph-dark.svg">
 </picture>
 
 <div align="center">
